@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Makermo Web Development</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<h1>Mohammad Hunan</h1>
+	<h3>Web Developer x Mad Scientist </h3>
+
+	<div class='maillist'>
+		<p>Join our mailing list to get updates on lesson/video and upcoming project releases</p>
+		<form id='mailer' action='/mail/new' method='post'>
+			Name:<input placerholder="Jane Doe" name='name'/>
+			Email:<input placerholder="youremail@email.com" name='email'/>
+			<input type='submit'/>
+			<!-- <button type='submit'>Submit</button> -->
+		</form>
+	</div>
+
+	<br>
+	<br>
+
+	<hr>
+	<div class='contactlist'>
+		<p>Write me directly</p>
+		<form id='contact-me' action='/contact/new' method='post'>
+			Name:<input placerholder="John Doe" name='name'/>
+			Email:<input placerholder="youremail@email.com" name='email'/>
+			Phone Number:<input placerholder="your phone number" name='phone'/>
+			Content:<input class='contact-content' placerholder="content" name='mycontent'/>
+			<input type='submit'/>
+		</form>
+	</div>
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script src='script.js'></script>
+</body>
+</html>

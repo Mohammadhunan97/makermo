@@ -1,0 +1,14 @@
+input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #888;
+}
+input{
+	display: block;
+}
+.contact-content{
+	width: 400px;
+	height:200px;
+}
